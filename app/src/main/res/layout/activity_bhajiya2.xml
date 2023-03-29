@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BhajiyaActivity2">
+
+    <TextView
+        android:id="@+id/bhajiya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bhajiya"
+        android:textSize="6mm"
+        android:textStyle="bold"
+        android:layout_marginStart="19mm"/>
+
+    <ListView
+        android:id="@+id/lst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bhajiya"
+        />
+</RelativeLayout>
